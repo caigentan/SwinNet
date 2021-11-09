@@ -693,7 +693,7 @@ class SwinNet(nn.Module):
         edge_map = self.edge_layer(d4, d3, d2)
         edge_feature = self.edge_feature(edge_map)
         end_sal = self.conv256_32(fuse_fea4)
-        up_edge = self.up_edge(end_sal)
+        up_edge = self.up_edge(edge_feature)
         out = self.relu(torch.cat((end_sal, edge_feature), dim=1))
         out = self.up4(out)
         sal_out = self.conv64_1(out)
