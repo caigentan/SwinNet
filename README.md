@@ -5,7 +5,7 @@
 ![rgb-d](https://img.shields.io/badge/RGB--D-%20-green)
 ![rgb-t](https://img.shields.io/badge/RGB--T-%20-brightgreen)
 
-Official Pytorch implementation of the paper SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection(The paper has been accepted by IEEE Transactions on Circuits and Systems for Video Technology. The details are in [paper](https://github.com/liuzywen/SwinNet/blob/main))
+Official Pytorch implementation of the paper SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection(The paper has been accepted by IEEE Transactions on Circuits and Systems for Video Technology. The details are in [paper](https://ieeexplore.ieee.org/document/9611276))
 
 Authors:[zhengyi Liu](https://github.com/liuzywen), [Yacheng Tan](https://github.com/caigentan), Qian He, Yun Xiao
 
@@ -88,10 +88,13 @@ All of the saliency maps mentioned in the paper are available on [GoogleDrive](h
 If you find this work or code useful, please cite:
 
 ```
-@inproceedings{
-  title={SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection},
-  author={zhengyi Liu, Yacheng Tan, Qian He, Yun Xiao},
-  booktitle={IEEE Transactions on Circuits and Systems for Video Technology},
+@ARTICLE{9611276,
+  author={Liu, Zhengyi and Tan, Yacheng and He, Qian and Xiao, Yun},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection}, 
   year={2021},
-}
-```
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2021.3127149}}
+``
