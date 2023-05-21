@@ -88,13 +88,12 @@ All of the saliency maps mentioned in the paper are available on [GoogleDrive](h
 If you find this work or code useful, please cite:
 
 ```
-@ARTICLE{9611276,
+@article{liu2022,
   author={Liu, Zhengyi and Tan, Yacheng and He, Qian and Xiao, Yun},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TCSVT.2021.3127149}}
+  volume={32},
+  number={7},
+  pages={4486--4497},
+  year={2022}}
 ``
