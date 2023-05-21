@@ -7,7 +7,7 @@
 
 Pytorch implementation of the paper SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection(The paper has been accepted by IEEE Transactions on Circuits and Systems for Video Technology. The details are in [paper](https://ieeexplore.ieee.org/document/9611276))，For more details, please(https://github.com/liuzywen/SwinNet)
 
-Authors:[zhengyi Liu](https://github.com/liuzywen), [Yacheng Tan](https://github.com/caigentan), Qian He, Yun Xiao
+Authors:[Zhengyi Liu](https://github.com/liuzywen), [Yacheng Tan](https://github.com/caigentan), Qian He, Yun Xiao
 
 ![main](imgs/main.png)
 ****
